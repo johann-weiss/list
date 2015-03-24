@@ -1,5 +1,5 @@
 
-function addFooters(){	
+function autodate(){	
 	notes = document.getElementsByClassName('notes');
 
 	
