@@ -1,0 +1,33 @@
+body{
+
+/*	font-family: Verdana;*/
+}
+
+.notes{
+
+	min-width: 300px;
+	max-width: 600px;
+	min-height: 200px;	
+	word-wrap:break-word;
+
+	position: relative;
+	border: 1px solid;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	margin: 20px;
+	margin-right: 
+}
+
+h1 {
+	position: relative;
+	top: -10px;
+	left: -15px;
+    font-family: Helvetica; /* Гарнитура текста */ 
+    font-size: 13pt; 
+   } 
+
+p {
+    font-family: Helvetica; 
+    font-size: 11pt; /* Размер шрифта в пунктах */ 
+}
