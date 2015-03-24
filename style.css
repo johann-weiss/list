@@ -31,3 +31,11 @@ p {
     font-family: Helvetica; 
     font-size: 11pt; /* Размер шрифта в пунктах */ 
 }
+
+h2{
+	position: absolute;	
+	right: 2px;
+	bottom: -10px;
+    font-family: Helvetica; /* Гарнитура текста */ 
+    font-size: 9pt; 
+}
