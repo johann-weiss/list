@@ -1,8 +1,6 @@
 
-function autodate(){	
+function autocount(){	
 	notes = document.getElementsByClassName('notes');
-
-	
 
 	formatString = '#yyyy.MM.dd kk.mm.ss'
 
@@ -23,6 +21,17 @@ function autodate(){
 		span.style["font-size"] = "9pt";		
 		span.innerHTML = daysBetween(dAug, date) + " :: #" + daysBetween(date, dBorn);
 		notes[i].appendChild(span);
+
+		var number = document.createElement('span');
+		number.style.position = "absolute";
+		number.style.bottom = "0px";
+		number.style.left = "2px";
+		number.style["font-family"] = "Helvetica";
+		number.style["font-size"] = "7pt";
+		
+		number.innerHTML = "#"+ (notes.length - i -1) + ".";
+		notes[i].appendChild(number);
+
 	}
 
 	
