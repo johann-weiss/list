@@ -30,6 +30,7 @@ h1 {
 p {
     font-family: Helvetica; 
     font-size: 11pt; /* Размер шрифта в пунктах */ 
+	text-align: justify;
 }
 
 h2{
