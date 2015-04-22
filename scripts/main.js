@@ -20,7 +20,7 @@ function autocount(){
 		span.style.right = "2px";
 		span.style["font-family"] = "Helvetica";
 		span.style["font-size"] = "9pt";		
-		span.innerHTML = daysBetween(date,dNoCoffee) + " ::" + daysBetween(dAug, date) + " :: #" + daysBetween(date, dBorn);
+		span.innerHTML = daysBetween(date,dNoCoffee) + " :: " + daysBetween(dAug, date) + " :: #" + daysBetween(date, dBorn);
 		notes[i].appendChild(span);
 
 		var number = document.createElement('span');
